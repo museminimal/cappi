@@ -1,0 +1,42 @@
+@import "reset";
+@import "header/header.scss";
+@import "fonts";
+@import "home-page/home-page.scss";
+@import "typography/typography.scss";
+@import "categories/categories.scss";
+@import "product-page/product-page.scss";
+@import "other-pages/other-pages.scss";
+@import "footer/footer.scss";
+
+//COMMON STYLES
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 1170px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.title {
+  color: #272727;
+  font-family: "Rotonda C";
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.88px;
+}
+
+.img-shadow {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
+
+.img-fluid {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}

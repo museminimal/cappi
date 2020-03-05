@@ -1,0 +1,127 @@
+@media screen and (max-width: 1600px) {
+
+  .typography .typography__fonts .typography__fonts-inner .typography__fonts-image {
+    right: -12%;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+    .typography .typography__fonts .typography__fonts-inner {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .typography .typography__fonts .typography__fonts-inner .typography__fonts-image {
+      position: static;
+    }
+  .typography .typography__fonts .typography__fonts-inner .typography__fonts-name-inner_1,
+  .typography .typography__fonts .typography__fonts-inner .typography__fonts-name-inner_2  {
+    max-width: 80%;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+   .typography {
+     .typography__colors-inner {
+        max-width: 720px;
+    }
+   }
+}
+
+@media screen and (max-width: 767px) {
+
+  .typography {
+    margin-bottom: 50px;
+
+    .typography__fonts .typography__fonts-inner {
+      margin-left: 20px;
+    }
+
+    .typography__inner::before {
+      left: 0;
+    }
+
+    .typography__title-inner {
+      margin-bottom: 30px;
+    }
+
+    .typography__colors-inner {
+      display: block;
+    }
+
+    .typography__colors-inner {
+      width: 157px;
+      margin: 0 auto;
+    }
+
+    .typography__fonts {
+      margin-top: 50px;
+    }
+
+    .typography__color-name:not(:last-child)  {
+      margin-bottom: 234px;
+    }
+
+    .typography__color-name {
+      width: 157px;
+      margin: 0 auto;
+    }
+
+    .typography__colors-inner::after,
+    .typography__colors-inner::before{
+      transform: rotate(90deg);
+    }
+
+    .typography__colors-inner::before{
+      top: 282px;
+      left: -33px;
+    }
+
+    .typography__colors-inner::after {
+      top: inherit;
+      bottom: 282px;
+      right: -42px;
+    }
+  }
+
+    .typography__colors-inner {
+      max-width: 720px;
+  }
+
+    .typography__colors-title {
+     padding: 32px 0 0;
+    }
+
+  .typography__fonts .typography__fonts-inner .typography__fonts-image {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .typography {
+    .typography__fonts .typography__fonts-title {
+      padding: 25px 0;
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .typography__inner::before {
+      display: none;
+    }
+
+    .typography__fonts .typography__fonts-inner .typography__fonts-name-inner_1,
+    .typography__fonts .typography__fonts-inner .typography__fonts-name-inner_2 {
+      margin-bottom: 20px;
+    }
+
+    .typography__title-inner {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+}

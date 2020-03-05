@@ -1,0 +1,23 @@
+@media screen and (max-width: 1170px) {
+  .other-pages {
+    .other-pages__card2 {
+      position: absolute;
+      top: 148px;
+      left: 0;
+    }
+
+    .other-pages__card3 {
+      margin: -20px auto;
+    }
+  }
+}
+
+@media screen and (max-width: 495px) {
+
+  .other-pages {
+    .other-pages__title {
+      font-size: 36px;
+      margin-bottom: 0;
+    }
+  }
+}

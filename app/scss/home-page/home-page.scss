@@ -1,0 +1,27 @@
+.home-page {
+  margin-top: 105px;
+
+  .home-page__title{
+    position: relative;
+    padding: 25px 150px;
+    margin-bottom: 70px;
+  }
+
+  .home-page__title::before {
+    content: "";
+    display: block;
+    width: 151px;
+    height: 100px;
+    left: 55px;
+    top: 0;
+    background: url("../img/numeration-01.png") no-repeat center / contain;
+    position: absolute;
+  }
+}
+
+@import "media";
+
+
+
+
+

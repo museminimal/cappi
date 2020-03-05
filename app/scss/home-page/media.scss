@@ -1,0 +1,28 @@
+@media screen and (max-width: 888px) {
+
+  .home-page {
+    margin-top: 50px;
+
+    .home-page__title {
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 495px) {
+
+  .home-page {
+    .home-page__title {
+      padding: 25px 35px;
+      font-size: 30px;
+    }
+
+    .home-page__title::before {
+      top: 0;
+      left: 60px;
+    }
+  }
+
+}

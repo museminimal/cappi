@@ -1,0 +1,50 @@
+.categories {
+  position: relative;
+
+  .categories-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 43%;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 203px;
+    height: 198px;
+    right: 9%;
+    top: 50%;
+    background: url("../img/categories-right(img).png") no-repeat center / contain;
+    position: absolute;
+    z-index: -2;
+  }
+
+  .categories__title-inner {
+    text-align: right;
+  }
+
+  .categories__title {
+    padding: 25px 80px;
+    position: relative;
+    margin-bottom: 55px;
+  }
+
+  .categories__title::before {
+    content: "";
+    display: block;
+    width: 191px;
+    height: 103px;
+    right: 0;
+    top: 0;
+    background: url("../img/numeration-04.png") no-repeat center / contain;
+    position: absolute;
+  }
+
+  .categories__main-img {
+    z-index: 2;
+  }
+}
+
+@import "media";

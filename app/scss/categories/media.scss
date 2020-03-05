@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .categories {
+    .categories__title {
+      font-size: 36px;
+    }
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .categories {
+    .categories__title {
+      font-size: 36px;
+    }
+  }
+
+  .categories-bg {
+    width: 60%;
+  }
+}

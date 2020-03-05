@@ -1,0 +1,257 @@
+.typography {
+  margin: 50px 0 200px;
+  position: relative;
+
+  .typography__inner {
+    position: relative;
+  }
+
+  .typography__inner::before {
+    content: "";
+    display: block;
+    width: 161px;
+    height: 135px;
+    left: -40px;
+    top: 55px;
+    background: url("../img/typography-left(img).png") no-repeat center / contain;
+    position: absolute;
+  }
+
+  .typography__colors {
+    position: relative;
+  }
+
+  .typography__colors::after {
+    content: "";
+    display: block;
+    width: 81px;
+    height: 84px;
+    right: -65px;
+    bottom: 0;
+    background: url("../img/typography-right(img).png") no-repeat center / contain;
+    position: absolute;
+  }
+
+  .typography__title-inner {
+    text-align: center;
+    margin-bottom: 70px;
+    width: 100%;
+    padding: 40px 0;
+    position: relative;
+  }
+
+  .typography__title-inner::after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: 82px;
+    top: 17px;
+    border: 2px solid #eeeeee;
+  }
+
+  .typography__colors-title {
+    padding: 32px 0;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .typography__colors-title::before {
+    content: "";
+    display: block;
+    width: 151px;
+    height: 100px;
+    left: 50%;
+    top: 9px;
+    background: url("../img/numeration-02.png") no-repeat center / contain;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  .typography__colors-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    max-width: 945px;
+    margin: 0 auto 125px;
+  }
+
+  .typography__colors-inner::before {
+    content: "";
+    display: block;
+    width: 234px;
+    height: 12px;
+    left: 17%;
+    top: 50%;
+    background: url("../img/line.png") no-repeat center / contain;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+
+  .typography__colors-inner::after {
+    content: "";
+    display: block;
+    width: 234px;
+    height: 12px;
+    right: 17%;
+    top: 50%;
+    background: url("../img/line.png") no-repeat center / contain;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+
+  .typography__circle {
+    width: 157px;
+    height: 157px;
+    border-radius: 50%;
+    border: 23px solid #eeeeee;
+  }
+
+  .typography__circle_circle1 {
+    background: #2fa37a;
+    position: relative;
+  }
+
+  .typography__circle::before {
+    content: "#2FA37A";
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+
+  .typography__circle_circle2 {
+    background: #f4b143;
+  }
+
+  .typography__circle_circle3 {
+    background: #dc4343;
+  }
+
+  .typography__color-name {
+    color: #ffffff;
+    font-family: 'Geometria Regular';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    padding: 75px 50px;
+  }
+
+  .typography__color-name {
+    position: relative;
+    z-index: 2;
+  }
+
+  .typography__color-name::before {
+    border: 23px solid #eeeeee;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 157px;
+    height: 157px;
+    left: 4px;
+    top: 6px;
+    z-index: -2;
+  }
+
+  .typography__color-name1::before {
+    background: #2fa37a;
+  }
+
+  .typography__color-name2::before {
+    background: #f4b143;
+  }
+
+  .typography__color-name3::before {
+    background: #dc4343;
+  }
+
+  .typography__fonts {
+
+    position: relative;
+
+
+    .typography__fonts-title {
+      position: relative;
+      padding: 25px 85px;
+      margin-bottom: 70px;
+    }
+
+    .typography__fonts-title::before {
+      content: "";
+      display: block;
+      left: 0;
+      top: 0;
+      position: absolute;
+      background: url("../img/numeration-03.png") no-repeat center / contain;
+      width: 181px;
+      height: 103px;
+    }
+
+    .typography__fonts-inner {
+      display: flex;
+      justify-content: space-between;
+      max-width: 650px;
+
+      .typography__fonts-name-inner {
+
+        .typography__fonts-name {
+          color: #222222;
+          font-size: 16px;
+          font-weight: 700;
+          letter-spacing: 0.4px;
+          margin-bottom: 20px;
+        }
+
+        .typography__fonts-name1 {
+          font-family: "Rotonda C";
+        }
+
+        .typography__fonts-name2 {
+          font-family: 'Geometria Regular';
+        }
+
+        .typography__fonts-letters {
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 1.05px;
+          line-height: 18px;
+        }
+
+        .typography__fonts-letters1 {
+          font-family: "Rotonda C";
+        }
+
+        .typography__fonts-letters2 {
+          font-family: 'Geometria Regular';
+        }
+      }
+
+      .typography__fonts-name-inner_1 {
+        max-width: 226px;
+      }
+
+      .typography__fonts-name-inner_2 {
+        max-width: 242px;
+      }
+
+      .typography__fonts-image {
+        position: absolute;
+        top: 25px;
+        right: -18%;
+      }
+  }
+
+  }
+
+}
+
+@import "media";

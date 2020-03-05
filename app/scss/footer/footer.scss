@@ -1,0 +1,38 @@
+.footer {
+  position: relative;
+  margin-top: 215px;
+
+  &__description {
+    max-width: 600px;
+    text-align: right;
+    margin-bottom: 165px;
+  }
+
+  &__footer-img {
+    position: absolute;
+    right: 0;
+    bottom: -165px;
+    width: 45%;
+  }
+
+  &__title {
+    color: #272727;
+    font-family: "Geometria Heavy";
+    font-size: 84px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5.04px;
+    padding-left: 90px;
+  }
+
+  &__subtitle {
+    color: #272727;
+    font-family: "Rotonda C";
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.68px;
+  }
+}
+
+@import "media";

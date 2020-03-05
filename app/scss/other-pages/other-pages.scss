@@ -1,0 +1,48 @@
+.other-pages {
+  position: relative;
+
+  &__inner {
+    position: relative;
+  }
+
+  &__title {
+    padding: 35px 80px;
+    margin-bottom: 40px;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 186px;
+      height: 103px;
+      left: 0;
+      top: 11px;
+      background: url("../img/numeration-06.png") no-repeat center / contain;
+      position: absolute;
+    }
+  }
+
+  &__img-inner {
+    position: relative;
+  }
+
+  &__card1 {
+    z-index: -1;
+  }
+
+  &__card2 {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: 2;
+  }
+
+  &__card3 {
+    position: relative;
+    z-index: 5;
+    margin-left: 90px;
+    margin-top: -55px;
+  }
+}
+
+@import "media";
